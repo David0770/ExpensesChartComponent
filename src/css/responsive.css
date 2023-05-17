@@ -1,0 +1,91 @@
+@media(max-width: 550px) {
+    .content {
+        padding: 20px;
+        width: 380px;
+    }
+
+    .graphics {
+        gap: 5px;
+
+    }
+
+    .area-spending {
+        padding: 20px;
+    }
+
+    .data-value {
+
+        padding: 12px;
+        width: 37px;
+        height: 20px;
+
+    }
+
+}
+
+@media(max-width: 300px) {
+    .content {
+        padding: 20px;
+        width: 300px;
+    }
+
+    .my-balance span {
+        font-size: 0.75rem;
+    }
+
+    .my-balance h2 {
+        font-size: 1.3rem;
+    }
+
+
+    .circule-one,
+    .circule-two {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .area-spending h1 {
+        font-size: 1.3rem;
+    }
+
+
+    .graphics {
+        gap: 2px;
+    }
+
+    .area-spending {
+        padding: 20px;
+    }
+
+    .data-value {
+
+        padding: 12px;
+        width: 35px;
+        height: 20px;
+
+    }
+
+    .data-wed,
+    .data-mon,
+    .data-tue,
+    .data-thu,
+    .data-fri,
+    .data-sat,
+    .data-sun {
+        width: 30px;
+    }
+
+
+    .text-income,
+    .text-spent,
+    .text-global {
+      
+        font-size: 0.70rem;
+    }
+    .area-monthly-income .income {
+
+        font-size: 0.81rem;
+    }
+
+}

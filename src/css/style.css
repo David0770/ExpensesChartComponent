@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+:root {
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--Cream);
+}
+
+.content {
+    padding: 20px;
+}
+
+.area-balance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--Soft-red);
+}
+
+.my-balance {
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: var(--Very-pale-orange);
+}
+
+.my-balance span {
+    font-size: 0.85rem;
+}
+
+.area-circule {
+    display: flex;
+    padding: 25px;
+}
+
+.circule-one {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: -15px;
+    border: 2px solid var(--Very-pale-orange);
+}
+
+.circule-two {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: var(--Dark-brown);
+
+}
+
+.area-balance {
+    border-radius: 10px;
+    background-color: var(--Soft-red);
+}
+
+.area-spending {
+    background-color: var(--Very-pale-orange);
+}
+
+.area-spending h1 {
+    color: var(--Dark-brown);
+}
+
+
+.area-spending {
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.graphics {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    height: 180px;
+    padding-bottom: 30px;
+    margin-top: 4rem;
+    border-bottom: 1.5px solid var(--Cream);
+}
+
+.day {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-income,
+.text-spent,
+.text-global {
+    color: var(--Medium-brown);
+    font-size: 0.85rem;
+}
+
+.data-wed {
+    width: 35px;
+    height: 100px;
+    background-color: var(--Cyan);
+    border-radius: 5px;
+    position: relative;
+}
+
+.data-wed:hover {
+    background-color: hsla(186, 34%, 60%, 0.671);
+}
+
+.data-mon,
+.data-tue,
+.data-thu,
+.data-fri,
+.data-sat,
+.data-sun {
+    width: 35px;
+    background-color: var(--Soft-red);
+    border-radius: 5px;
+}
+
+.data-mon:hover,
+.data-tue:hover,
+.data-thu:hover,
+.data-fri:hover,
+.data-sat:hover,
+.data-sun:hover {
+    background-color: hsla(10, 79%, 65%, 0.781);
+}
+
+
+
+.data-mon {
+    height: 30px;
+}
+
+.data-tue {
+    height: 65px;
+}
+
+.data-thu {
+    height: 60px;
+}
+
+.data-fri {
+    height: 45px;
+}
+
+.data-sat {
+    height: 80px;
+}
+
+.data-sun {
+    height: 55px;
+}
+
+.area-spent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.area-monthly-income {
+    display: flex;
+    flex-direction: column;
+}
+
+.area-monthly-income .income {
+    display: flex;
+    justify-content: end;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: var(--Dark-brown);
+}
+
+/*  CLASS ADD VIA JAVASCRIPT */
+
+.data-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 12px;
+    width: 50px;
+    height: 20px;
+    background-color: var(--Dark-brown);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+    font-size: 0.6rem;
+}
